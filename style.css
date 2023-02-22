@@ -1,0 +1,56 @@
+*{
+    font-family: 'Itim', cursive;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    background-color:#171414;
+}
+
+.lable{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+
+
+.hide{
+    opacity: 0;
+}
+
+.playagain-btn{
+    opacity: 1;
+    color: white;
+    background-color: #1D81F9;
+    padding: 10px;
+    border: 5px;
+    margin-top:10px;
+
+    transition: .5S all ease;
+}
+
+.playagain-btn:hover{
+    letter-spacing: 1px;
+    padding: 13px;
+}
+
+.over{
+    color: red;
+}
+
+#score-text{
+    color: white;
+}
